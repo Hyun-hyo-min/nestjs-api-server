@@ -9,7 +9,7 @@ import { BoardRepository } from './board.repository';
   controllers: [BoardsController],
   providers: [
     BoardsService,
-    BoardRepository,
+    BoardRepository
   ]
 })
 export class BoardsModule {}
